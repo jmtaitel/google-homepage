@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+.left-header{
+    position: relative;
+    width: 125px;
+    height:100px;
+}
+#left-header{
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+#about:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#store:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#gmail:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#images:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.right-header{
+    position: relative;
+    width:200px;
+    height: 50px;
+    left: 1575px;
+}
+#right-header{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+}
+#sign-in{
+    background-color:#4285f4;
+    color: white;
+    padding: 4px 6px 4px 6px;
+    border-radius: 4px;
+}
+.body-grid{
+    position: relative;
+    display: grid;
+    grid-row: 33% 33% 33%;
+    width: 1900px;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+#google-input{
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+#google-input:hover{
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.btns{
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+#search{
+    padding: 10px;
+    border-style: hidden;
+}
+#search:hover{
+    border-style: solid;
+    cursor: pointer;
+}
+#lucky{
+    border-style: hidden;
+    padding: 10px;
+}
+#lucky:hover{
+    border-style: solid;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    height: 30px;
+    width: 1910px;
+    Background-color: rgb(180, 180, 180);
+    flex-direction: row;
+    margin-top: 360px;
+}
+.left-footer{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-evenly;
+    left: 0;
+    width: 400px;
+    height:100px
+    margin-left: -50px;
+    padding-top:7px;
+}
+#advertising:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#business:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#hsw:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.right-footer{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right:0;
+    width: 300px;
+    height:10px;
+    padding-top: 7px;
+    flex-direction: row;
+}
+#privacy:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#terms:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#settings:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
